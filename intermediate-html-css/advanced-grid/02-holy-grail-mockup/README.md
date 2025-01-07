@@ -10,7 +10,7 @@ Now that you've made your Holy Grail layout responsive, we are going to have som
 - Don't worry about the placeholder image element stretching when resizing the browser window. This will be covered in the Responsive lessons
 
 ## Desired Outcome
-
+    
 ![desired outcome](./desired-outcome.png)
 
 If you use the tools in the Advanced Grid Properties lesson you should be able to get your article cards to automatically fit as the browser window is adjusted:

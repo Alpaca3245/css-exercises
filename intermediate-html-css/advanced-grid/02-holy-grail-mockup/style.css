@@ -5,6 +5,8 @@
 
 .container {
   text-align: center;
+  grid-template: 2fr 1fr min(265px) 1fr / 1fr 4fr;  
+  display: grid;
 }
 
 .container div {
@@ -17,6 +19,13 @@
 
 .header {
   background-color: #393f4d;
+  grid-column: span 2;
+  grid-template-columns: 30% 70%;
+  display: grid;
+}
+
+.logo {
+  grid-area: 1, 1, 1, 1;
 }
 
 .menu ul,
